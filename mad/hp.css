@@ -1,0 +1,25 @@
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* スクロールの幅の設定 */
+::-webkit-scrollbar {
+width: 8px;
+height: 8px;
+}
+
+/* スクロールの背景の設定 */
+::-webkit-scrollbar-track {
+   background: rgba(0,0,0,1.5);
+}
+
+/* スクロールのつまみ部分の設定 */
+::-webkit-scrollbar-thumb {
+border-radius: 5px;
+background: #bababa;
+}
+
+p {
+  line-height: 1.25;
+}
